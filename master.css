@@ -1,0 +1,40 @@
+#cadre-menu
+{
+	position: fixed;
+	left: -170px;
+	overflow: hidden;
+	top: 25%;
+	width: 350px;
+	font: 12px Arial;
+}
+#bordure-menu
+{
+	float: left;
+	background: #ddd;
+	width: 115px;
+	margin: 0px;
+	padding: 25px;
+	padding-top: 30px;
+	border: 5px solid #999;
+	border-left: none;
+}
+#bordure-menu ul
+{
+	list-style: square inside;
+}
+#bordure-menu ul li
+{
+	padding-bottom: 8px;
+}
+#bordure-menu ul li a
+{
+	color: #555;
+}
+#bouton-menu
+{
+	float: right;
+	width: 180px;
+	margin: 0px;
+	height: 136px;
+	background: url('On-the-Menu-logo-med.png') top right no-repeat;
+}

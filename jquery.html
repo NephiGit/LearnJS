@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>jQuery</title>
+	<link rel="stylesheet" href="master.css" />
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js?ver=1.4.2"></script>
+</head>
+<body>
+<script type="text/javascript">
+	$(document).ready(function() {
+		$("#cadre-menu").hover(function(){
+			$("#cadre-menu").animate({marginLeft: "170px" }, 500);
+		}, function(){
+			$("#cadre-menu").animate({marginLeft: "0"}, 150);
+			});
+	});
+</script>
+	<div id="cadre-menu">
+		<div id="bordure-menu">
+			<ul>
+				<li><a href="#">Lien</a></li>
+				<li><a href="#">Lien</a></li>
+				<li><a href="#">Lien</a></li>
+				<li><a href="#">Lien</a></li>
+				<li><a href="#">Lien</a></li>
+			</ul>
+		</div>
+		<div id="bouton-menu">
+			
+		</div>
+	</div>
+</body>
+</html>
